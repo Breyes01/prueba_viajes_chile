@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    justify-content: flex-start;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#nombreLogo {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#navbar {
+    background-color: #34929E;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Pacifico";
+}
+
+section {
+    background-color: #000000;
+}
+
+
+.p-column {
+    color: #ffffff;
+}
+
+#iconos {
+    background-color: #0DCAF0;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #0DCAF0;
+}
+
+.card {
+    background-color: #0DCAF0;
+}
+
+.mensaje {
+    margin-bottom: 0;
+}
+
+#formulario {
+    background-color: #000000;
+    margin-bottom: 0;
+}
+
+.formulario {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#exampleModalLabel {
+    font-family: "Pacifico";
+    font-size: larger;
+    background-color: #0DCAF0;
+    color: #000000;
+}
+
+.title .btn {
+    background-color: #0DCAF0;
+}
+
+#boton {
+    background-color: #0DCAF0;
+}
+
+footer {
+    background-color: #0DCAF0;
+}
+
+
+a {
+    color: #ffffff;
+}
+
+#redes {
+    text-align: center;
+}
+
+.titulo-footer {
+    text-align: left;
+    font-weight: lighter;
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
