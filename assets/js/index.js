@@ -5,7 +5,7 @@ $(document).ready(function () {
 });
 
 
-//Modal en sección formulario
+//Modal sobre el título "contacto" en sección formulario
 $('#contacto').click(function () {
     $('#exampleModal').modal('show');
 });
