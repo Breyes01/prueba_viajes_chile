@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba Viajes Chile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/20162254e3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <!--Navbar Bootstrap-->
+  <nav class="navbar navbar-expand-lg text-light" id="navbar">
+    <a class="navbar-brand" href="#"></a><img src="/assets/img/viajes.svg" width="150" height="50" alt="logo"
+      class="logo"></a id="nombreLogo">Viajes Chile</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link text-light" href="#">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#sectionQuienes">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#sectionDestacados">Destacados</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#sectionContacto">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header>
+    <!--Carousel Bootstrap-->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/assets/img/carousel1.jpg" class="d-block w-100" height="700px" alt="carousel-1">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/carousel2.jpg" class="d-block w-100" height="700px" alt="carpusel-2">
+        </div>
+        <div class="carousel-item">
+          <img src="/assets/img/carousel3.jpg" class="d-block w-100" height="700px" alt="carousel-3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleControls" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- columnas Bootstrap-->
+  <section class="columnas d-none d-lg-block" id="sectionQuienes">
+    <h3 class="subtitulo p-4">¿QUIÉNES SOMOS?</h3>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-4">
+          <div id="iconos">
+            <a href="#"></a> <i class="fa-solid fa-plane"></i></a>
+          </div>
+          <div>
+            <p class="p-column">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat itaque nemo est,
+              laborum ad nobis nihil tempore reiciendis eum et vel dicta maxime aperiam velit ea quo quisquam excepturi
+              minima?</p>
+          </div>
+        </div>
+        <div class="col-4 ">
+          <div>
+            <p class="p-column text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id corrupti iste
+              saepe molestias tenetur consequuntur doloremque eum modi voluptates, debitis libero fuga minus nemo sed
+              quas similique nulla eos ullam!</p>
+          </div>
+          <div id="iconos">
+            <a href="#"></a> <i class="fa-solid fa-mountain"></i></a>
+          </div>
+        </div>
+        <div class="col-4">
+          <div id="iconos">
+            <a href="#"></a><i class="fa-solid fa-route"></i></a>
+          </div>
+          <div>
+            <p class="p-column">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error itaque vitae excepturi
+              tempora architecto corporis nisi repellendus. Commodi, magni similique? Culpa reiciendis ab quidem
+              debitis, laboriosam qui quos sequi atque.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--cards Destacados Bootstrap-->
+  <section id="sectionDestacados">
+    <H3 class="subtitulo pt-4 pb-4" id="subDestacados" data-toggle="popover"
+      title="Visita los mejores lugares turísticos" data-content="¿Estás listo para la aventura?"
+      data-placement="bottom">DESTACADOS</H3>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card text-white">
+          <img src="/assets/img/card1.jpg" class="card-img-top" alt="card-1">
+          <div class="card-body" id="etiquetas">
+            <h5 class="card-title">Cordillera</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas quidem vel libero ut
+              a quaerat modi, omnis quam in, corrupti sunt veritatis quisquam numquam, sapiente laudantium quos.
+              Inventore, labore velit?.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-white">
+          <img src="/assets/img/card2.jpg" class="card-img-top" alt="card-2">
+          <div class="card-body">
+            <h5 class="card-title">Montañas</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quisquam eaque,
+              velit fugiat repellendus modi voluptatum vitae temporibus facere unde doloribus eligendi illum porro
+              provident consequatur! Accusantium numquam eaque eius..</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-white">
+          <img src="/assets/img/card3.jpg" class="card-img-top" alt="card-3">
+          <div class="card-body">
+            <h5 class="card-title">Salar</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga officiis eos voluptatem
+              ipsum dolor debitis ut sit, voluptatum distinctio cumque nihil, fugit doloribus cum esse error corrupti
+              nemo sunt aspernatur!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-white">
+          <img src="/assets/img/card4.jpg" class="card-img-top" alt="card-4">
+          <div class="card-body">
+            <h5 class="card-title">Bosque</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores. Non sequi
+              omnis autem expedita consequuntur odit officiis odio ipsa sapiente magnam adipisci beatae minima excepturi
+              officia, cum corporis nesciunt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Formulario Bootstrap-->
+  <section class="mensaje" id="sectionContacto">
+    <div class="container-fluid width: 18rem" id="formulario">
+      <H3 class="subtitulo pt-3" id="contacto">CONTACTO</H3>
+
+      <form class="formulario text-white">
+        <div>
+          <label for="exampleFormControlInput1">Nombre</label>
+          <input type="text" class="form-control">
+        </div>
+
+        <div class="pb-3">
+          <label for="exampleFormControlInput1">Asunto</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn text-white text-center mb-5" id="boton" data-toggle="tooltip"
+          title="Presiona para enviar tu mensaje">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">¿Tienes preguntas?</h1>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Si tienes consultas estamos para ayudarte. Destinos turísticos, precios, alojamientos y mucho más.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="d-flex justify-content-around pt-3">
+    <div>
+      <h3 class="titulo-footer text-center">VIAJES CHILE</h3>
+    </div>
+    <div class="d-flex" id="redes">
+      <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="https://cl.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+      <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+
+  <script src="/assets/js/index.js"></script>
+
+</body>
+
+
+</html>
