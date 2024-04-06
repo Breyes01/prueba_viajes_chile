@@ -31,6 +31,10 @@ section {
     background-color: #000000;
 }
 
+#columnas {
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 .p-column {
     color: #ffffff;
@@ -39,6 +43,11 @@ section {
 #iconos {
     background-color: #0DCAF0;
     text-align: center;
+}
+
+#tarjetas {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .card-body {
@@ -89,6 +98,7 @@ a {
 
 #redes {
     text-align: center;
+    gap: 10px;
 }
 
 .titulo-footer {
@@ -96,5 +106,4 @@ a {
     font-weight: lighter;
     margin-left: 200px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
